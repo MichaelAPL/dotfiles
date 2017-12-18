@@ -1,0 +1,4 @@
+hub_path=$(which hub)
+if [ "$hub_path" ]; then
+  alias git="hub"
+fi
